@@ -1,0 +1,164 @@
+<meta>
+	<info name="Sistema de Inventario" author="ber#8813" />
+	<min_mta_version server="1.5.7" client="1.5.7" />
+	<script src="edit.lua" type="shared" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+	<script src="shopC.lua" type="client" />
+	<script src="shopS.lua" type="server" />
+	<script src="weaponFabC.lua" type="client" />
+	<script src="weaponFabS.lua" type="server" />
+	<script src="replace.lua" type="client" />
+	
+	<file src="gfx/itens/pizza.png" />
+	<file src="gfx/itens/hamburguer.png" />
+	<file src="gfx/itens/burrito.png" />
+	<file src="gfx/itens/suco.png" />
+	<file src="gfx/itens/refrigerante.png" />
+	<file src="gfx/itens/whisky.png" />
+	<file src="gfx/itens/leite2.png" />
+	<file src="gfx/itens/colete.png" />
+	<file src="gfx/itens/taco.png" />
+	<file src="gfx/itens/cassetete.png" />
+	<file src="gfx/itens/faca.png" />
+	<file src="gfx/itens/taser.png" />
+	<file src="gfx/itens/glock.png" />
+	<file src="gfx/itens/deagle.png" />
+	<file src="gfx/itens/escopeta.png" />
+	<file src="gfx/itens/tec9.png" />
+	<file src="gfx/itens/mp5.png" />
+	<file src="gfx/itens/ak47.png" />
+	<file src="gfx/itens/m4a1.png" />
+	<file src="gfx/itens/awm.png" />
+	<file src="gfx/itens/ak47boca.png" />
+	<file src="gfx/itens/ak47carregador.png" />
+	<file src="gfx/itens/ak47coronha.png" />
+	<file src="gfx/itens/ak47corpo.png" />
+	<file src="gfx/itens/escopetacoronha.png" />
+	<file src="gfx/itens/escopetacorpo.png" />
+	<file src="gfx/itens/glockcarregador.png" />
+	<file src="gfx/itens/glockcorpo.png" />
+	<file src="gfx/itens/glockslider.png" />
+	<file src="gfx/itens/tec9boca.png" />
+	<file src="gfx/itens/tec9carregador.png" />
+	<file src="gfx/itens/tec9corpo.png" />
+	<file src="gfx/itens/.50.png" />
+	<file src="gfx/itens/762.png" />
+	<file src="gfx/itens/556.png" />
+	<file src="gfx/itens/.45.png" />
+	<file src="gfx/itens/12.png" />
+	<file src="gfx/itens/9mm.png" />
+	<file src="gfx/itens/cavalo.png" />
+	<file src="gfx/itens/caveira.png" />
+	<file src="gfx/itens/touro.png" />
+	<file src="gfx/itens/sacola.png" />
+	<file src="gfx/itens/criatura.png" />
+	<file src="gfx/itens/macaco.png" />
+	<file src="gfx/itens/porco.png" />
+	<file src="gfx/itens/capeta.png" />
+	<file src="gfx/itens/pa.png" />
+	<file src="gfx/itens/fertilizante.png" />
+	<file src="gfx/itens/maleta.png" />
+	<file src="gfx/itens/chip.png" />
+	<file src="gfx/itens/picareta.png" />
+	<file src="gfx/itens/cutelo.png" />
+	<file src="gfx/itens/capacete.png" />
+	<file src="gfx/itens/kit_reparo.png" />
+	<file src="gfx/itens/bandagem.png" />
+	<file src="gfx/itens/celular.png" />
+	<file src="gfx/itens/cigarro.png" />
+	<file src="gfx/itens/dado.png" />
+	<file src="gfx/itens/flor.png" />
+	<file src="gfx/itens/som.png" />
+	<file src="gfx/itens/presente.png" />
+	<file src="gfx/itens/gasolina.png" />
+	<file src="gfx/itens/leite1.png" />
+	<file src="gfx/itens/pneu.png" />
+	<file src="gfx/itens/ziplock.png" />
+	<file src="gfx/itens/radinho.png" />
+	<file src="gfx/itens/chaves.png" />
+	<file src="gfx/itens/seda.png" />
+	<file src="gfx/itens/isqueiro.png" />
+	<file src="gfx/itens/kevlar.png" />
+	<file src="gfx/itens/linha.png" />
+	<file src="gfx/itens/agulha.png" />
+	<file src="gfx/itens/kitmedico.png" />
+	<file src="gfx/itens/adrenalina.png" />
+	<file src="gfx/itens/capsula.png" />
+	<file src="gfx/itens/polvora.png" />
+	<file src="gfx/itens/drill.png" />
+	<file src="gfx/itens/lockpick.png" />
+	<file src="gfx/itens/dinheirosujo.png" />
+	<file src="gfx/itens/algema.png" />
+	<file src="gfx/itens/dinamite.png" />
+	<file src="gfx/itens/pendrive.png" />
+	<file src="gfx/itens/maconha1.png" />
+	<file src="gfx/itens/maconha2.png" />
+	<file src="gfx/itens/maconha3.png" />
+	<file src="gfx/itens/coca1.png" />
+	<file src="gfx/itens/coca2.png" />
+	<file src="gfx/itens/cnh.png" />
+	<file src="gfx/itens/cnh2.png" />
+	<file src="gfx/itens/cnh3.png" />
+	<file src="gfx/itens/cnh4.png" />
+	<file src="gfx/itens/identidade.png" />
+	<file src="gfx/itens/porte.png" />
+	<file src="gfx/itens/niobio.png" />
+	<file src="gfx/itens/bronze.png" />
+	<file src="gfx/itens/prata.png" />
+	<file src="gfx/itens/ouro.png" />
+	<file src="gfx/itens/diamante.png" />
+	<file src="gfx/itens/rubi.png" />
+
+	<file src="sfx/open.mp3" />
+	<file src="sfx/close.mp3" />
+	<file src="sfx/release.mp3" />
+	<file src="sfx/eat.mp3" />
+	<file src="sfx/drink.mp3" />
+	<file src="sfx/pick.mp3" />
+	<file src="sfx/put.mp3" />
+	<file src="sfx/trash.mp3" />
+	<file src="sfx/repair.mp3" />
+	<file src="sfx/radio-beep.mp3" />
+	<file src="sfx/radio-toggle.mp3" />
+	<file src="sfx/vehicle-alarm.mp3" />
+
+	<file src="txd/capacete.txd" />
+	<file src="txd/capacete.dff" />
+	<file src="txd/cutelo.txd" />
+	<file src="txd/cutelo.dff" />
+	<file src="txd/maleta.txd" />
+	<file src="txd/maleta.dff" />
+	<file src="txd/picareta.txd" />
+	<file src="txd/picareta.dff" />
+	<file src="txd/algema.txd" />
+	<file src="txd/algema.dff" />
+	<file src="txd/cavalo.txd" />
+	<file src="txd/cavalo.dff" />
+	<file src="txd/caveira.txd" />
+	<file src="txd/caveira.dff" />
+	<file src="txd/touro.txd" />
+	<file src="txd/touro.dff" />
+	<file src="txd/sacola.txd" />
+	<file src="txd/sacola.dff" />
+	<file src="txd/criatura.txd" />
+	<file src="txd/criatura.dff" />
+	<file src="txd/macaco.txd" />
+	<file src="txd/macaco.dff" />
+	<file src="txd/porco.txd" />
+	<file src="txd/porco.dff" />
+	<file src="txd/capeta.txd" />
+	<file src="txd/capeta.dff" />
+
+	<file src="fontes/Roboto.ttf" />
+	<file src="fontes/RobotoBold.ttf" />
+
+	<export function="GiveAndTakeAndGetItem" type="server" />
+	<export function="GetItemClient" type="client" />
+
+
+	
+    <file src="files/music.mp3"/>
+    <script type="client" src="music.lua"/>
+
+</meta>
